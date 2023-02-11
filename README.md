@@ -1,5 +1,6 @@
 # SDCM: Spectral Dimension Compression Mapping
 The official code for *Learnable spectral dimension compression mapping for full-band speech enhancement (2023)*, accepted by JASA-EL.
+The code for fullsubnet-plus is taken from https://github.com/hit-thusz-RookieCJ/FullSubNet-plus.
 
 ## Requirements
 + pytorch 1.7.1
@@ -13,7 +14,7 @@ The official code for *Learnable spectral dimension compression mapping for full
 ### Clone
 `git clone https://github.com/Qinwen-Hu/SDCM.git`
 ### Data preparation
-Download the VoiceBank-Demand dataset, modify the corresponding `yaml` document, and run `python Dataloader_vctk_demand.py` to split the data into clips.
+Download the VoiceBank-Demand dataset from https://datashare.ed.ac.uk/handle/10283/2791, modify the corresponding `yaml` document, and run `python Dataloader_vctk_demand.py` to split the data into clips.
 ### Training
 Run `python train_fullsubp.py` or  `python train_dptfsnet.py`.
 ### Evaluate
