@@ -23,3 +23,16 @@ Run:
 ```
 python evaluate.py -m f_scm -c ./ckpt/fullsubp_scm/model.ckpt -N /data/ssd/vctk_demand/noisy_testset_wav -C /data/ssd/vctk_demand/clean_testset_wav -O ./vctk_demand_enhanced -d cpu
 ```
+### Citation
+```
+@article{sdcm2023,
+title={Learnable spectral dimension compression mapping for full-band speech enhancement},
+author={Hu, Qinwen and Hou, Zhongshu and Chen, Kai and Lu, Jing},
+journal={JASA Express Letters},
+volume={3},
+number={2},
+pages={025204},
+year={2023},
+publisher={Acoustical Society of America}
+}
+```
