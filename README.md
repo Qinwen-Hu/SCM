@@ -1,5 +1,5 @@
 # SDCM: Spectral Dimension Compression Mapping
-The official code for *Learnable spectral dimension compression mapping for full-band speech enhancement (2023)*, https://asa.scitation.org/doi/10.1121/10.0017327, .
+The official code for *Learnable spectral dimension compression mapping for full-band speech enhancement (2023)*, https://asa.scitation.org/doi/10.1121/10.0017327.
 The code for fullsubnet-plus is taken from https://github.com/hit-thusz-RookieCJ/FullSubNet-plus.
 
 ## Requirements
